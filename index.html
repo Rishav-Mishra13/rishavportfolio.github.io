@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rishav Mishra - Web Developer, Programmer, AI Enthusiast</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/3a8007b26b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/Logou.png" class="logo">
+             <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+             </ul>
+             <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Programmer</p>
+            <h1>Hi, I'am <span>Rishav Mishra</span><br>From India</h1>
+        </div>
+    </div>
+</div>
+<!----------------about--------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col1">
+                <img src="images/rishavuser.jpg">
+            </div>
+            <div class="about-col2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hello, My name is Rishav Mishra and I'm currently a student at Techno Main Salt Lake College.
+                     I'm studying to become a software engineer, as I'm passionate about programming and creating new software solutions.
+                      In my free time, I enjoy playing cricket and exploring my creative side by editing videos.
+                       My goal is to use my skills to make a positive impact in the world through technology</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Programing Language</span><br>C<br>JAVA<br>C++</li>
+                        <li><span>Web Development</span><br>HTML<br>CSS<Br>JavaScript</li>
+                        <li><span>Database</span><br>SQL</li>
+                    </ul>
+                    </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>CLASS 10</span><br>Andhra Association School<br>Marks = 607/700</li>
+                        <li><span>CLASS 12</span><br>Nava Nalanda High School<br>Marks = 444/500</li>
+                        <li><span>GRADUATION</span><br>BTech-CSE From Techno Main Salt Lake<br>CGPA(till 5th Sem) = 9.14</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Internship</span><br></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!----------------services------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Programmer</h2>
+                <p></p>
+                <a href="#about">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>Web Developer</h2>
+                <p></p>
+                <a href="#about">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>SDE Intern</h2>
+                <p></p>
+                <a href="#about">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!---------portfolio------>
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/weather1.png">
+                <div class="layer">
+                    <h3>Forcast</h3>
+                    <p>Forecast is a simple project developed using JavaScript, CSS, and HTML. 
+                        This project is an interesting project for simply weather forecasting. 
+                        The user can check the condition of the present-day climate probability and predict whether the day is a cloudy or sunny day. 
+                        The user can write down the name of any city across the world in the app. </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>My Portfolio</h3>
+                    <p>The aim of this project is to develop a Portfolio Site. A portfolio site is relevant now because we can showcase all the details about our extracurricular or academic activities without any restrictions.</p>
+                    <a href="https://rishav-mishra13.github.io/rishavportfolio.github.io/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Musify</h3>
+                    <p>Musify is a clone of the popular Spotify app with some tweaks. It is built completely using Jetpack compose. It uses the Spotify API to fetch the data.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<!-- --------------contact------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>rishavmishra446@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i></i>8777727365</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/rishav-mishra-973ba6224/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://twitter.com/RishavM84289741"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100010634823855"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/mishra_rishav1312/"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="images/Rishav Mishra_cv.pdf" Download class="btn btn2">Download CV</a>
+            </div>                
+            <div class="contact-right">  
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>              
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright <i class="fa-solid fa-copyright"></i> Rishav Mishra</p>
+    </div>
+</div>
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbweeLKK9ewN2rOu1MWhMWf0a-eCWHRW1hPCLUUQC9VFZCv596_HGKrPS7Dbb1da3o4Ztw/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message Sent Successfully"
+        setTimeout(function(){
+            msg.innerHTML = ""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
